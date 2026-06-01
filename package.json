@@ -1,0 +1,11 @@
+{
+  "name": "dakar-climate-intelligence-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:base": "node build_base_par_annee.mjs",
+    "build:v6": "node build_dakar_climate_master_v6_simplifie.mjs",
+    "render:previews": "node render_apercus.mjs"
+  }
+}
